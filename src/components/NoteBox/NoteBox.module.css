@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.noteFont {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.2rem;   
+    text-overflow:ellipsis;
+    overflow:hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+.box {
+    cursor: pointer;
+    transition: 0.4s;
+}
+.box:hover {
+    transform: scale(1.02);
+}
